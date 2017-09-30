@@ -22,18 +22,22 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
-  background-color: #74CEFF;
 }
 
 body {
   padding-top: 44px;
   padding-right: 22px;
   padding-left: 22px;
+  background-color: #74CEFF;
 }
 
 h1,h2,h3,h4,h5,h6,p {
   padding-top: 1.222em; /* 22/18 */
   padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
+}
+
+#header{
+  background-color: #3F8AB2;
 }
 
 .hobby{
