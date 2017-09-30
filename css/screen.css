@@ -28,16 +28,32 @@ body {
   padding-top: 44px;
   padding-right: 22px;
   padding-left: 22px;
-  background-color: #74CEFF;
+  background-color: #F1F1F2;
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   padding-top: 1.222em; /* 22/18 */
   padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
 
+ol li{
+  padding-bottom: 0.611em; /* 11/18 */
+}
+
 #header{
-  background-color: #3F8AB2;
+  background-color: #BCBABE;
+  inherit: none;
+}
+/* overcast #F1F1F2, warm gray #BCBABE, ice #A1D6E2, glacier blue #1995AD*/
+
+a:link{
+  color: #A1D6E2;
 }
 
 .hobby{
