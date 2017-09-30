@@ -21,6 +21,12 @@ html {
   line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
 
+body {
+  padding-top: 44px;
+  padding-right: 22px;
+  padding-left: 22px;
+}
+
 img {
   display: block;
   max-width: 100%;
