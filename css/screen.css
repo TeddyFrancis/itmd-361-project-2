@@ -16,13 +16,15 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   3. basic element presenation
 */
 
+*{
+    font-family: Arial, sans-serif;
+}
 html {
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
 
 body {
-  font-family: Arial, sans-serif;
   padding-top: 44px;
   padding-right: 22px;
   padding-left: 22px;
@@ -30,6 +32,11 @@ body {
 
 h1,h2,h3,h4,h5,h6,p {
   padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
+}
+
+.hobby{
+  font-weight: bold;
+  font-size: 1.375em; /* 22/16 */
 }
 
 img {
