@@ -46,6 +46,12 @@ p{
   padding-bottom: 0.888em; /* 16/18 */
 }
 
+h2{
+  font-size: 1.5em; /* 24/16 */
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 ol li{
   padding-bottom: 0.611em; /* 11/18 */
   list-style-type: none;
