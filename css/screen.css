@@ -47,14 +47,15 @@ ol li{
   list-style-type: none;
 }
 
-.major, .gpa{
+.major,
+.gpa{
   list-style-type: square;
   padding-left: 0.333em; /*6/18*/
 }
 
 #header{
   background-color: #BCBABE;
-  inherit: none;
+  font-family: Arial, sans-serif;
 }
 /* overcast #F1F1F2, warm gray #BCBABE, ice #A1D6E2, glacier blue #1995AD*/
 
