@@ -51,6 +51,10 @@ ol li{
   list-style-type: none;
 }
 
+li{
+  padding-bottom: 0.611em; /* 11/18 */
+}
+
 aside{
   font-family: Arial, sans-serif;
 }
