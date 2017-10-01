@@ -55,6 +55,10 @@ li{
   padding-bottom: 0.611em; /* 11/18 */
 }
 
+li li:last-child{
+  padding-bottom: 0em;
+}
+
 aside{
   font-family: Arial, sans-serif;
 }
