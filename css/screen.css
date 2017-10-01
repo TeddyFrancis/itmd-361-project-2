@@ -44,6 +44,12 @@ p {
 
 ol li{
   padding-bottom: 0.611em; /* 11/18 */
+  list-style-type: none;
+}
+
+.major, .gpa{
+  list-style-type: square;
+  padding-left: 0.333em; /*6/18*/
 }
 
 #header{
