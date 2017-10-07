@@ -19,6 +19,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /*
   Setting with 4:3 modular scale
 */
+/* overcast #F1F1F2, warm gray #BCBABE, ice #A1D6E2, glacier blue #1995AD*/
 
 * {
   font-family: Arial, sans-serif;
@@ -82,19 +83,33 @@ footer {
   font-family: Arial, sans-serif;
 }
 
-.major,
-.gpa {
-  list-style-type: square;
-  padding-left: 0.333em; /*6/18*/
-}
+/* Layout Styles */
+/*
+  Hint: these tend to be
+  1. IDs; but also classes, sometimes
+  2. concerned with layout and spatial
+     relationships
+*/
 
 #header {
   /* background-color: #BCBABE; */
   font-family: Arial, sans-serif;
 }
 
+/* Modular Styles */
+/*
+  Repeating style patterns.
+  Hint: these tend to be:
+  1. classes and relationship selectors
+  2. concerned with adjustments to base styles,
+      spacing, color, etc. etc.
+*/
 
-/* overcast #F1F1F2, warm gray #BCBABE, ice #A1D6E2, glacier blue #1995AD*/
+.major,
+.gpa {
+  list-style-type: square;
+  padding-left: 0.333em; /*6/18*/
+}
 
 a:link {
   color: #A1D6E2;
@@ -105,7 +120,11 @@ a:link {
   font-size: 1.375em; /* 22/16 */
 }
 
-img {
+/* Responsive Media */
+
+img,
+video,
+audio {
   display: block;
   max-width: 100%;
 }
