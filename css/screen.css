@@ -63,7 +63,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.3125em; /* 21/16 */
+  font-size: 1.5em; /* 24/16 */
 }
 
 li {
@@ -117,11 +117,6 @@ footer {
 
 a:link {
   color: #A1D6E2;
-}
-
-.hobby {
-  font-weight: bold;
-  font-size: 1.375em; /* 22/16 */
 }
 
 /* Responsive Media */
