@@ -60,6 +60,7 @@ h4 {
 h2 {
   font-size: 1.75em; /* 28/16 */
   text-decoration: underline;
+  line-height: 1.8888em; /*34/18 */
 }
 
 h3 {
