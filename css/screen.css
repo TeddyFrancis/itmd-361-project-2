@@ -16,9 +16,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   3. basic element presenation
 */
 
-*{
-    font-family: Arial, sans-serif;
-    color: #1995AD;
+/*
+  Setting with 4:3 modular scale
+*/
+
+* {
+  font-family: Arial, sans-serif;
+  color: #1995AD;
 }
 html {
   font-size: 1.125em; /* 18 / 16 = 1.125 */
@@ -26,9 +30,9 @@ html {
 }
 
 body {
-  padding-top: 44px;
-  padding-right: 22px;
-  padding-left: 22px;
+  padding-top: 2.44444em; /* 44/18 = 2.44444em */
+  padding-right: 1.2222222em; /* 22/18 = 1.2222222em */
+  padding-left: 1.2222222em; /* 22/18 = 1.2222222em */
   background-color: #F1F1F2;
 }
 
@@ -37,55 +41,54 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
   padding-top: 1.222em; /* 22/18 */
   padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
 
-p{
+p {
   padding-top: 0.888em; /* 16/18 */
   padding-bottom: 0.888em; /* 16/18 */
 }
 
-h2{
+h2 {
   font-size: 1.5em; /* 24/16 */
-  font-weight: bold;
-  text-decoration: underline;
+  font-variant: small-caps;
 }
 
-h3{
+h3 {
   font-size: 1.3125em; /* 21/16 */
   font-variant: small-caps;
 }
 
-ol li{
+li {
+  padding-bottom: 0.611em; /* 11/18 */
+}
+
+ol li {
   padding-bottom: 0.611em; /* 11/18 */
   list-style-type: none;
 }
 
-li{
-  padding-bottom: 0.611em; /* 11/18 */
+li li:last-child {
+  padding-bottom: 0;
 }
 
-li li:last-child{
-  padding-bottom: 0em;
-}
-
-aside{
+aside {
   font-family: Arial, sans-serif;
 }
 
-footer{
+footer {
   font-family: Arial, sans-serif;
 }
 
 .major,
-.gpa{
+.gpa {
   list-style-type: square;
   padding-left: 0.333em; /*6/18*/
 }
 
-#header{
+#header {
   background-color: #BCBABE;
   font-family: Arial, sans-serif;
 }
@@ -93,11 +96,11 @@ footer{
 
 /* overcast #F1F1F2, warm gray #BCBABE, ice #A1D6E2, glacier blue #1995AD*/
 
-a:link{
+a:link {
   color: #A1D6E2;
 }
 
-.hobby{
+.hobby {
   font-weight: bold;
   font-size: 1.375em; /* 22/16 */
 }
