@@ -67,6 +67,9 @@ h3 {
   padding-top: 0.5em; /* 9/18 */
 }
 
+h1 {
+  padding-top: 1em; /* 18/18 */
+}
 li {
   padding-bottom: 0.611em; /* 11/18 */
 }
@@ -95,11 +98,13 @@ footer {
   2. concerned with layout and spatial
      relationships
 */
+
 #navigation {
   position: absolute;
   width: 100%;
   top: 0;
   left: 0;
+  background-color: #BCBABE;
 }
 
 #navigation li {
@@ -115,7 +120,14 @@ footer {
   padding-top: 0.5em; /* 9/18 */
   padding-bottom: 0.5em; /* 9/18 */
   text-transform: uppercase;
+  color: #1995AD;
 }
+/*
+  This moves the navigation across the top of the dislpay
+  in block form. This allows for easier use on mobile
+  devices.
+*/
+
 #header {
   /* background-color: #BCBABE; */
   font-family: Arial, sans-serif;
