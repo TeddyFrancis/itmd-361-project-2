@@ -51,6 +51,7 @@ h6 {
 p {
   padding-top: 0.888em; /* 16/18 */
   padding-bottom: 0.888em; /* 16/18 */
+  text-align: justify;
 }
 
 h4 {
@@ -69,6 +70,7 @@ h3 {
 
 li {
   padding-bottom: 0.611em; /* 11/18 */
+  text-align: justify;
 }
 
 ol li {
