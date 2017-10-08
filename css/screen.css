@@ -95,7 +95,12 @@ footer {
   2. concerned with layout and spatial
      relationships
 */
-
+#navigation {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
 #header {
   /* background-color: #BCBABE; */
   font-family: Arial, sans-serif;
