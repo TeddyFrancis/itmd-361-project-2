@@ -101,6 +101,21 @@ footer {
   top: 0;
   left: 0;
 }
+
+#navigation li {
+  float: left;
+  width: 33.33333333%;
+}
+
+#navigation a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 0.5em; /* 9/18 */
+  padding-bottom: 0.5em; /* 9/18 */
+  text-transform: uppercase;
+}
 #header {
   /* background-color: #BCBABE; */
   font-family: Arial, sans-serif;
