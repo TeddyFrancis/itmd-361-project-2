@@ -58,11 +58,13 @@ h4 {
 h2 {
   font-size: 1.75em; /* 28/16 */
   text-decoration: underline;
-  line-height: 1.777778em; /*32/18 */
+  line-height: 1.66667em; /*30/18 */
+  padding-bottom: 0.5em; /* 9/18 */
 }
 
 h3 {
   font-size: 1.5em; /* 24/16 */
+  padding-top: 0.5em; /* 9/18 */
 }
 
 li {
