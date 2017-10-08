@@ -71,7 +71,7 @@ li {
 
 ol li {
   padding-bottom: 0.611em; /* 11/18 */
-  list-style-type: none;
+  list-style-type: circle;
 }
 
 li li:last-child {
