@@ -152,6 +152,10 @@ a:link {
   color: #A1D6E2;
 }
 
+.names {
+  list-style-type: none;
+}
+
 /* Responsive Media */
 
 img,
