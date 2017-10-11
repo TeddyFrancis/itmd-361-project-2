@@ -156,6 +156,21 @@ a:link {
   list-style-type: none;
 }
 
+.interviewer {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.interviewee {
+  list-style-type: none;
+  font-weight: normal;
+}
+/*
+  Used the bold font weight to easily seperate the two dialogs when
+  quickly looking at the page.
+*/
+
+
 /* Responsive Media */
 
 img,
