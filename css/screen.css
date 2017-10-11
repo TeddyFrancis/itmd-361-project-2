@@ -202,3 +202,33 @@ audio {
     font-size: 1.25em; /* 20/16 */
   }
 }
+
+@media screen and (min-width: 840px) {
+  /*
+    700 px grid with 70 px margins (140)
+    columns are 200 px
+    gutters are 50 px
+    #primary 450 px
+    #supporting 200 px
+  */
+
+  body {
+    padding-left: 8.33333333%; /* 70/840 */
+    padding-right: 8.33333333%; /* 70/840 */
+  }
+
+  #primary {
+    width: 64.285714%; /* 450/700 */
+    float: left;
+  }
+
+  #supporting {
+    width: 28.571429%; /* 200/700 */
+    margin-left: 7.142857%; /* 50/700 */
+    float: left;
+  }
+
+  #footer {
+    clear: both;
+  }
+}
