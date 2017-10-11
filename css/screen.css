@@ -190,3 +190,9 @@ audio {
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
+
+@media screen and (min-width: 380px) {
+  body {
+    padding-left: 11.842105%; /* 45/380 */
+    padding-right: 11.842105%; /* 45/380 */
+}
