@@ -196,3 +196,9 @@ audio {
     padding-left: 11.842105%; /* 45/380 */
     padding-right: 11.842105%; /* 45/380 */
 }
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 1.25em; /* 20/16 */
+  }
+}
