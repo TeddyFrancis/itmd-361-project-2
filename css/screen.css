@@ -156,8 +156,28 @@ a:link {
   padding-bottom: 0;
 }
 
-#lu-and-fi { 
-  font-size: 0.875em;
+#lu-and-fi {
+  font-size: 0.875em; /*14/18*/
+}
+
+#skills {
+  padding-bottom: 0.5em; /*9/18*/
+}
+
+#lang {
+  padding-top: 0em;
+}
+
+#vet {
+  padding-top: 0em;
+}
+
+#work {
+  padding-top: 0.5em;/*9/18*/
+}
+
+#hockey-pic {
+  font-size: 0.875em; /*14/18*/
 }
 /* Modular Styles */
 /*
