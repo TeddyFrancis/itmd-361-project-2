@@ -88,6 +88,9 @@ aside {
   font-family: Arial, sans-serif;
 }
 
+aside li {
+  list-style-type: none;
+}
 footer {
   font-family: Arial, sans-serif;
 }
@@ -166,6 +169,7 @@ a:link {
   list-style-type: none;
   font-weight: normal;
 }
+
 /*
   Used the bold font weight to easily seperate the two dialogs when
   quickly looking at the page.
