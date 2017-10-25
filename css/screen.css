@@ -156,6 +156,9 @@ a:link {
   padding-bottom: 0;
 }
 
+#lu-and-fi { 
+  font-size: 0.875em;
+}
 /* Modular Styles */
 /*
   Repeating style patterns.
