@@ -135,6 +135,9 @@ a:link {
   in block form. This allows for easier use on mobile
   devices.
 */
+#supporting a {
+  text-decoration: underline;
+}
 
 #header {
   /* background-color: #BCBABE; */
