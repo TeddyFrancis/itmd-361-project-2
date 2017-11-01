@@ -96,9 +96,6 @@ li li:last-child {
   padding-bottom: 0;
 }
 
-footer {
-  font-family: Arial, sans-serif;
-}
 
 /* Layout Styles */
 /*
@@ -180,6 +177,11 @@ a:link {
 
 #hockey-pic {
   font-size: 0.875em; /*14/18*/
+}
+
+#footer {
+  font-family: Arial, sans-serif;
+  color: #1995AD;
 }
 /* Modular Styles */
 /*
