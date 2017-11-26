@@ -323,14 +323,14 @@ audio {
     grid-row: 2;
   }
 
-  /*This layout is for the resume page */
+  /*This layout is for the resume page*/
   #supporting-resume {
-    width: 28.571429%; /* 200/700 */
+    width: 21.428571%; /* 150/700 */
     float: left;
   }
 
   #primary-resume {
-    width: 64.285714%; /* 450/700 */
+    width: 71.428571%; /* 500/700 */
     margin-left: 7.142857%; /* 50/700 */
     float: right;
   }
