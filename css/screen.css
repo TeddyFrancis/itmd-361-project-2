@@ -246,10 +246,55 @@ audio {
   3. Organized by Base, Layout, Module, State
 */
 
+.js body {
+  padding-top: 3.5em; /* 63/18 */
+}
+.js body:after {
+  content: "expanded-nav";
+  display: none;
+}
+.js body.is-showing-expanded-nav {
+  padding-top: 14em; /* 252/18 */
+}
+.js h2 {
+  font-size: inherit;
+  line-height: inherit;
+  padding-bottom: 0;
+}
+.js #navigation ul {
+  display: none;
+}
+.js #navigation ul.is-visible {
+  display: block;
+}
+
+
 @media screen and (min-width: 380px) {
   body {
     padding-left: 11.842105%; /* 45/380 */
     padding-right: 11.842105%; /* 45/380 */
+  }
+}
+
+@media screen and (min-wdith 430px) {
+  body {
+    padding-top: 3.5em; /* 63/18 */
+  }
+  .js body:after {
+    content: "";
+  }
+  #navigation a {
+    text-align: center;
+  }
+  #navigation li {
+    float: left;
+    width: 20%;
+  }
+  .flexbox #navigation ul {
+    display: flex;
+  }
+  .flexbox #navigation li {
+    float: none;
   }
 }
 
