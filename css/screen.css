@@ -97,7 +97,6 @@ li li:last-child {
 }
 
 
-
 /* Layout Styles */
 /*
   Hint: these tend to be
@@ -184,6 +183,10 @@ a:link {
   font-family: Arial, sans-serif;
   color: #1995AD;
 }
+
+#contact {
+  text-decoration: underline;
+}
 /* Modular Styles */
 /*
   Repeating style patterns.
@@ -220,6 +223,7 @@ a:link {
 .hockey2 {
   list-style-type: none;
 }
+
 
 /*
   Used the bold font weight to easily seperate the two dialogs when
