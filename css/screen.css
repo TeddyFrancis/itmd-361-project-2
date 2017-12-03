@@ -96,7 +96,6 @@ li li:last-child {
   padding-bottom: 0;
 }
 
-
 /* Layout Styles */
 /*
   Hint: these tend to be
@@ -223,7 +222,6 @@ a:link {
 .hockey2 {
   list-style-type: none;
 }
-
 
 /*
   Used the bold font weight to easily seperate the two dialogs when
