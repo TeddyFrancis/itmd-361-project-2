@@ -186,6 +186,15 @@ a:link {
 #contact {
   text-decoration: underline;
 }
+
+#eighteen-desc,
+#seventeen-desc,
+#seventeen-interview,
+#eighteen-stats,
+#seventeen-stats {
+  list-style-type: none;
+  text-decoration: underline;
+}
 /* Modular Styles */
 /*
   Repeating style patterns.
@@ -223,9 +232,12 @@ a:link {
   list-style-type: none;
 }
 
-.expand {
+.expand18,
+.expand17,
+.expandInt,
+.expand18s,
+.expand17s {
   list-style-type: none;
-  text-decoration: underline;
 }
 
 /*
