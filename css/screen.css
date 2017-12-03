@@ -223,6 +223,11 @@ a:link {
   list-style-type: none;
 }
 
+.expand {
+  list-style-type: none;
+  text-decoration: underline;
+}
+
 /*
   Used the bold font weight to easily seperate the two dialogs when
   quickly looking at the page.
