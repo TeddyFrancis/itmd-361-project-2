@@ -9,13 +9,15 @@ $('html').addClass('js').removeClass("no-js");
 //  Release $ from jquery control
 $.noConflict();
 
-$('.expand18').hide();
-//  Function to show/hide the content in #eighteen-desc
 (function($) {
 
-  $('#eighteen-desc').click(function () {
+  //  Function to show/hide the content in #seventeen-desc
+  $('#seventeen-desc').addClass("button");
+  $('#seventeen-desc').on('click', (function (e) {
     //  show the content on click
-    $('.expand18').toggle();
+    $('.expand17').addClass('is-visible');
+    $('.expand17').toggleClass('is-visible');
   });
+  e.preventDefault();
 
 })(jQuery);
