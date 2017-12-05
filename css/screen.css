@@ -73,7 +73,7 @@ h3 {
 }
 
 h1 {
-  padding-top: 0.6em; /* 10.8/18 */
+  padding-top: 1.6em; /* 10.8/18 */
 }
 li {
   padding-bottom: 0.611em; /* 11/18 */
@@ -354,40 +354,40 @@ audio {
   }
 
   /*This layout is for the resume page*/
-  #supporting-resume {
+  #resume #supporting {
     width: 21.428571%; /* 150/700 */
     float: left;
   }
 
-  #primary-resume {
+  #resume #primary {
     width: 71.428571%; /* 500/700 */
     margin-left: 7.142857%; /* 50/700 */
     float: right;
   }
 
-  .flexbox #primary-resume,
-  .flexbox #supporting-resume {
+  .flexbox #resume #primary,
+  .flexbox #resume #supporting {
     float: none;
     margin-left: 0;
     flex: 0 1 auto;
   }
 
-  .flexbox #content-resume {
+  .flexbox #resume #supporting {
     display: flex;
     justify-content: space-between;
   }
 
-  .cssgrid #primary-resume,
-  .cssgrid #supporting-resume {
+  .cssgrid #resume #primary,
+  .cssgrid #resume #supporting {
     width: auto;
   }
 
-  .cssgrid #primary-resume {
+  .cssgrid #resume #primary {
     grid-column: 3;
     grid-row: 2;
   }
 
-  .cssgrid #supporting-resume {
+  .cssgrid #resume #supporting {
     grid-column: 1 / 3;
     grid-row: 1;
   }
