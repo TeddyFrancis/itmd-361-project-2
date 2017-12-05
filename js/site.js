@@ -6,6 +6,9 @@
 
 $('html').removeClass('no-js').addClass('js');
 $('#expand17').addClass('hide');
+$('#expandint').addClass('hide');
+$('#expand18s').addClass('hide');
+$('#expand17s').addClass('hide');
 
 //  Release $ from jQuery controlled
 $.noConflict();
@@ -15,8 +18,14 @@ $.noConflict();
 
   //  function to show the content hidden in .expand17 on click
   $('#seventeen-desc').on('click', function () {
-    $('#expand17').removeClass('hide').addClass('is-visible');
-    });
-  e.preventDefault();
+    $('#expand17').toggleClass('hide');
+  });
+
+
+  //  function to show the content hidden in .expandint on click
+  $('#seventeen-interview').on('click', function () {
+    $('#expandint').toggleClass('hide');
+  });
+
 
 })(jQuery);
