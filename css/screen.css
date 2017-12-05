@@ -353,8 +353,6 @@ audio {
     grid-row: 2;
   }
 
-
-
   /*This layout is for the resume page*/
   #resume #resume-supporting {
     width: 21.428571%; /* 150/700 */
@@ -365,6 +363,10 @@ audio {
     width: 71.428571%; /* 500/700 */
     margin-left: 7.142857%; /* 50/700 */
     float: right;
+  }
+
+  #resume #resume-footer {
+    clear: both;
   }
 
   .flexbox #resume #resume-primary,
@@ -399,6 +401,56 @@ audio {
   .cssgrid #resume #resume-supporting {
     grid-column: 1;
     grid-row: 1;
+  }
+
+  /*This layout is for the home page*/
+  #home #home-primary {
+    width: 64.285714%; /* 450/700 */
+    float: left;
+  }
+
+  #home #home-supporting {
+    width: 28.571429%; /* 200/700 */
+    margin-left: 7.142857%; /* 50/700 */
+    float: left;
+  }
+
+  #home #home-footer {
+    clear: both;
+  }
+
+  .flexbox #home #home-primary,
+  .flexbox #home #home-supporting {
+    float: none;
+    margin-left: 0;
+    flex: 0 1 auto;
+  }
+
+  .flexbox #home #home-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cssgrid #home #home-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    grid-column-gap: 25px;
+  }
+
+  .cssgrid #home #home-primary,
+  .cssgrid #home #home-supporting {
+    width: auto;
+  }
+
+  .cssgrid #home #home-primary {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+
+  .cssgrid #home #home-supporting {
+    grid-column: 3;
+    grid-row: 2;
   }
 }
 
