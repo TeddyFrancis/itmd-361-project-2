@@ -21,10 +21,14 @@ $.noConflict();
     $('#expand17').toggleClass('hide');
   });
 
-
   //  function to show the content hidden in .expandint on click
   $('#seventeen-interview').on('click', function () {
     $('#expandint').toggleClass('hide');
+  });
+
+  //  function to show the content hidden in .expand18s on click
+  $('#eighteen-stats').on('click', function () {
+    $('#expand18s').toggleClass('hide');
   });
 
 
