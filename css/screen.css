@@ -356,47 +356,47 @@ audio {
 
 
   /*This layout is for the resume page*/
-  #resume #supporting {
+  #resume #resume-supporting {
     width: 21.428571%; /* 150/700 */
     float: left;
   }
 
-  #resume #primary {
+  #resume #resume-primary {
     width: 71.428571%; /* 500/700 */
     margin-left: 7.142857%; /* 50/700 */
     float: right;
   }
 
-  .flexbox #resume #primary,
-  .flexbox #resume #supporting {
+  .flexbox #resume #resume-primary,
+  .flexbox #resume #resume-supporting {
     float: none;
     margin-left: 0;
     flex: 0 1 auto;
   }
 
-  .flexbox #resume #supporting {
+  .flexbox #resume #resume-content-resume {
     display: flex;
     justify-content: space-between;
   }
 
-  .cssgrid #content #resume {
+  .cssgrid #resume #resume-content-resume {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto;
     grid-column-gap: 25px;
   }
 
-  .cssgrid #resume #primary,
-  .cssgrid #resume #supporting {
+  .cssgrid #resume #resume-primary,
+  .cssgrid #resume #resume-supporting {
     width: auto;
   }
 
-  .cssgrid #resume #primary {
+  .cssgrid #resume #resume-primary {
     grid-column: 1 / 3;
     grid-row: 2;
   }
 
-  .cssgrid #resume #supporting {
+  .cssgrid #resume #resume-supporting {
     grid-column: 1;
     grid-row: 1;
   }
