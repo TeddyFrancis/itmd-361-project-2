@@ -15,7 +15,7 @@ $.noConflict();
 
   //  function to show the content hidden in .expand17 on click
   $('#seventeen-desc').click(function () {
-    $('#expand17').removeClass('hide').addClass('is-visible');
+    $('#expand17').toggleClass('is-visible');
     });
   e.preventDefault();
 
