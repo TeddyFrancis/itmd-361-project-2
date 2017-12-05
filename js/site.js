@@ -31,5 +31,10 @@ $.noConflict();
     $('#expand18s').toggleClass('hide');
   });
 
+  //  function to show the content hidden in .expand17s on click
+  $('#seventeen-stats').on('click', function () {
+    $('#expand17s').toggleClass('hide');
+  });
+
 
 })(jQuery);
