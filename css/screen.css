@@ -195,6 +195,14 @@ a:link {
   list-style-type: none;
   text-decoration: underline;
 }
+
+#expand18,
+#expand17,
+#expandint,
+#expand18s,
+#expand17s {
+  list-style-type: none;
+}
 /* Modular Styles */
 /*
   Repeating style patterns.
@@ -232,13 +240,6 @@ a:link {
   list-style-type: none;
 }
 
-.expand18,
-.expand17,
-.expandint,
-.expand18s,
-.expand17s {
-  list-style-type: none;
-}
 
 /*
   Used the bold font weight to easily seperate the two dialogs when
@@ -265,11 +266,11 @@ audio {
   3. Organized by Base, Layout, Module, State
 */
 
-.js .expand17 {
+.js .hide {
   display: none;
 }
 
-.is-visible .expand17 {
+.is-visible {
   display: block;
 }
 
