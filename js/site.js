@@ -11,7 +11,7 @@ $('#expand18s').addClass('hide');
 $('#expand17s').addClass('hide');
 
 //  Release $ from jQuery controlled
-//  $.noConflict();
+$.noConflict();
 
 
 (function($) {
