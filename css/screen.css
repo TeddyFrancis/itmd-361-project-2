@@ -270,10 +270,6 @@ audio {
   display: none;
 }
 
-.is-visible {
-  display: block;
-}
-
 @media screen and (min-width: 380px) {
   body {
     padding-left: 11.842105%; /* 45/380 */
