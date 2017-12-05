@@ -5,7 +5,7 @@
 /* eslint-enable */
 
 $('html').removeClass('no-js').addClass('js');
-$('.expand17').addClass('hide');
+$('#expand17').addClass('hide');
 
 //  Release $ from jQuery controlled
 $.noConflict();
@@ -14,8 +14,8 @@ $.noConflict();
 (function($) {
 
   //  function to show the content hidden in .expand17 on click
-  $('#seventeen-desc').click(function () {
-    $('#expand17').toggleClass('is-visible');
+  $('#seventeen-desc').on('click', function () {
+    $('#expand17').removeClass('hide').addClass('is-visible');
     });
   e.preventDefault();
 
